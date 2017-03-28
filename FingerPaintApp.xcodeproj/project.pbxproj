@@ -12,8 +12,6 @@
 		4E32085E1B9A220C00A52F65 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E32085D1B9A220C00A52F65 /* ViewController.m */; };
 		4E3208611B9A220C00A52F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E32085F1B9A220C00A52F65 /* Main.storyboard */; };
 		4E3208631B9A220C00A52F65 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E3208621B9A220C00A52F65 /* Images.xcassets */; };
-		4E3208661B9A220C00A52F65 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E3208641B9A220C00A52F65 /* LaunchScreen.xib */; };
-		4E3208721B9A220C00A52F65 /* FingerPaintAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E3208711B9A220C00A52F65 /* FingerPaintAppTests.m */; };
 		4E32087D1B9A23DA00A52F65 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E32087C1B9A23DA00A52F65 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
@@ -37,10 +35,7 @@
 		4E32085D1B9A220C00A52F65 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		4E3208601B9A220C00A52F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E3208621B9A220C00A52F65 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		4E3208651B9A220C00A52F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4E32086B1B9A220C00A52F65 /* FingerPaintAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingerPaintAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E3208701B9A220C00A52F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4E3208711B9A220C00A52F65 /* FingerPaintAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FingerPaintAppTests.m; sourceTree = "<group>"; };
 		4E32087B1B9A23DA00A52F65 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
 		4E32087C1B9A23DA00A52F65 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,7 +62,6 @@
 			isa = PBXGroup;
 			children = (
 				4E3208541B9A220C00A52F65 /* FingerPaintApp */,
-				4E32086E1B9A220C00A52F65 /* FingerPaintAppTests */,
 				4E3208531B9A220C00A52F65 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,15 +78,12 @@
 		4E3208541B9A220C00A52F65 /* FingerPaintApp */ = {
 			isa = PBXGroup;
 			children = (
-				4E3208591B9A220C00A52F65 /* AppDelegate.h */,
-				4E32085A1B9A220C00A52F65 /* AppDelegate.m */,
+				4E32087B1B9A23DA00A52F65 /* DrawView.h */,
+				4E32087C1B9A23DA00A52F65 /* DrawView.m */,
 				4E32085C1B9A220C00A52F65 /* ViewController.h */,
 				4E32085D1B9A220C00A52F65 /* ViewController.m */,
 				4E32085F1B9A220C00A52F65 /* Main.storyboard */,
-				4E32087B1B9A23DA00A52F65 /* DrawView.h */,
-				4E32087C1B9A23DA00A52F65 /* DrawView.m */,
 				4E3208621B9A220C00A52F65 /* Images.xcassets */,
-				4E3208641B9A220C00A52F65 /* LaunchScreen.xib */,
 				4E3208551B9A220C00A52F65 /* Supporting Files */,
 			);
 			path = FingerPaintApp;
@@ -101,25 +92,10 @@
 		4E3208551B9A220C00A52F65 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E3208591B9A220C00A52F65 /* AppDelegate.h */,
+				4E32085A1B9A220C00A52F65 /* AppDelegate.m */,
 				4E3208561B9A220C00A52F65 /* Info.plist */,
 				4E3208571B9A220C00A52F65 /* main.m */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		4E32086E1B9A220C00A52F65 /* FingerPaintAppTests */ = {
-			isa = PBXGroup;
-			children = (
-				4E3208711B9A220C00A52F65 /* FingerPaintAppTests.m */,
-				4E32086F1B9A220C00A52F65 /* Supporting Files */,
-			);
-			path = FingerPaintAppTests;
-			sourceTree = "<group>";
-		};
-		4E32086F1B9A220C00A52F65 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E3208701B9A220C00A52F65 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -205,7 +181,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4E3208611B9A220C00A52F65 /* Main.storyboard in Resources */,
-				4E3208661B9A220C00A52F65 /* LaunchScreen.xib in Resources */,
 				4E3208631B9A220C00A52F65 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -235,7 +210,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4E3208721B9A220C00A52F65 /* FingerPaintAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,14 +230,6 @@
 				4E3208601B9A220C00A52F65 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		4E3208641B9A220C00A52F65 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4E3208651B9A220C00A52F65 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -422,6 +388,7 @@
 				4E3208771B9A220C00A52F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E3208781B9A220C00A52F65 /* Build configuration list for PBXNativeTarget "FingerPaintAppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +397,7 @@
 				4E32087A1B9A220C00A52F65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

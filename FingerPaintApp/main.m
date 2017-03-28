@@ -2,8 +2,8 @@
 //  main.m
 //  FingerPaintApp
 //
-//  Created by Derrick Park on 2015-09-04.
-//  Copyright (c) 2015 dspAPP. All rights reserved.
+//  Created by Pierre Binon on 2017-03-27.
+//  Copyright © 2017 Pierre Binon. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
